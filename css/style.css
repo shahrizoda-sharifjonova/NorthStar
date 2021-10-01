@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 30px;
+}
+.header__link{
+    font-size: 16px;
+    color: #004A43;
+    text-decoration: none;
+    transition: 400ms ease;
+}
+.header__link:hover{
+    color: #FFAD3D;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #7D77FC;
+    padding: 10px 20px;
+    transition: 800ms ease;
+}
+.header__btn:hover{
+    background: #FFAD3D;
+    color: #004A43;
+    border-radius: 25px;
+}
+.intro{
+    background: #F1F6F6;
+    padding-bottom: 50px;
+    margin-bottom: 65px;    
+}
+.intro__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.intro__img{
+    width: 600px;
+}
+.intro__title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #004A43;
+    margin-bottom: 8px;
+}
+.intro__text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    color: #345E5A;
+    margin-bottom: 40px;
+}
+.intro__btn{
+    cursor: pointer;
+    padding: 20px 120px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #004A43;
+    text-decoration: none;
+    background: #FFAD3D;
+}
+.intro__desc{
+    cursor: pointer;
+    margin-top: 45px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #345E5A;
+}
+.intro__text__primary{
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #58D1BD;;
+}
+.intro__bottom__title{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #5C9992;
+    margin-bottom: 40px;
+}
+.intro__rows{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
